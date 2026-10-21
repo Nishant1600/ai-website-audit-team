@@ -1,0 +1,11 @@
+# build output
+*.skill
+
+# local audit artifacts if someone tests the skill inside this repo
+.site-audit/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="400" viewBox="0 0 1280 400" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1020"/>
+      <stop offset="0.6" stop-color="#151036"/>
+      <stop offset="1" stop-color="#2a0f3d"/>
+    </linearGradient>
+    <linearGradient id="title" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#c4b5fd"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#a78bfa" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#a78bfa" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1280" height="400" rx="24" fill="url(#bg)"/>
+  <circle cx="1040" cy="200" r="210" fill="url(#glow)"/>
+
+  <!-- left: copy -->
+  <g transform="translate(64,0)">
+    <rect x="0" y="62" width="250" height="32" rx="16" fill="#ffffff" fill-opacity="0.08" stroke="#ffffff" stroke-opacity="0.18"/>
+    <circle cx="20" cy="78" r="5" fill="#34d399"/>
+    <text x="34" y="83" font-size="14" fill="#d1d5db" letter-spacing="0.5">CLAUDE CODE SKILL · v1.0</text>
+
+    <text x="0" y="160" font-size="52" font-weight="800" fill="url(#title)">Your website just</text>
+    <text x="0" y="222" font-size="52" font-weight="800" fill="url(#title)">hired a company.</text>
+
+    <text x="0" y="276" font-size="22" fill="#cbd5e1">10 AI specialists · 5 supervisors · 1 CEO who reports to you</text>
+    <text x="0" y="318" font-size="17" fill="#94a3b8">Finds bugs. Proves them. Fixes them. Verifies the fix. Twice.</text>
+  </g>
+
+  <!-- right: mini org chart -->
+  <g stroke="#ffffff" stroke-opacity="0.25" stroke-width="2" fill="none">
+    <path d="M1040 108 V140"/>
+    <path d="M1040 172 V190 M920 190 H1160 M920 190 V206 M980 190 V206 M1040 190 V206 M1100 190 V206 M1160 190 V206"/>
+    <path d="M920 230 V256 M980 230 V256 M1040 230 V256 M1100 230 V256 M1160 230 V256"/>
+    <path d="M908 256 H932 M968 256 H992 M1028 256 H1052 M1088 256 H1112 M1148 256 H1172"/>
+    <path d="M908 256 V270 M932 256 V270 M968 256 V270 M992 256 V270 M1028 256 V270 M1052 256 V270 M1088 256 V270 M1112 256 V270 M1148 256 V270 M1172 256 V270"/>
+  </g>
+  <rect x="1000" y="76" width="80" height="32" rx="16" fill="#ffffff"/>
+  <text x="1040" y="97" font-size="14" font-weight="700" fill="#151036" text-anchor="middle">YOU</text>
+  <rect x="995" y="140" width="90" height="32" rx="8" fill="#a78bfa"/>
+  <text x="1040" y="161" font-size="14" font-weight="700" fill="#0b1020" text-anchor="middle">CEO</text>
+  <g>
+    <rect x="906" y="206" width="28" height="24" rx="6" fill="#f472b6"/>
+    <rect x="966" y="206" width="28" height="24" rx="6" fill="#38bdf8"/>
+    <rect x="1026" y="206" width="28" height="24" rx="6" fill="#34d399"/>
+    <rect x="1086" y="206" width="28" height="24" rx="6" fill="#f87171"/>
+    <rect x="1146" y="206" width="28" height="24" rx="6" fill="#fbbf24"/>
+  </g>
+  <g fill-opacity="0.75">
+    <circle cx="908" cy="278" r="8" fill="#f472b6"/><circle cx="932" cy="278" r="8" fill="#f472b6"/>
+    <circle cx="968" cy="278" r="8" fill="#38bdf8"/><circle cx="992" cy="278" r="8" fill="#38bdf8"/>
+    <circle cx="1028" cy="278" r="8" fill="#34d399"/><circle cx="1052" cy="278" r="8" fill="#34d399"/>
+    <circle cx="1088" cy="278" r="8" fill="#f87171"/><circle cx="1112" cy="278" r="8" fill="#f87171"/>
+    <circle cx="1148" cy="278" r="8" fill="#fbbf24"/><circle cx="1172" cy="278" r="8" fill="#fbbf24"/>
+  </g>
+  <text x="1040" y="322" font-size="13" fill="#94a3b8" text-anchor="middle">UX · Frontend · Backend · Security · Performance</text>
+</svg>

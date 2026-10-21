@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#6e7681"/>
+    </marker>
+  </defs>
+  <rect width="1200" height="280" rx="20" fill="#0d1117" stroke="#30363d"/>
+  <text x="600" y="50" font-size="20" font-weight="800" fill="#e6edf3" text-anchor="middle">Three gates. Nothing skips one.</text>
+
+  <g stroke="#6e7681" stroke-width="2.5" marker-end="url(#arrow)">
+    <line x1="124" y1="160" x2="154" y2="160"/>
+    <line x1="380" y1="160" x2="410" y2="160"/>
+    <line x1="536" y1="160" x2="566" y2="160"/>
+    <line x1="792" y1="160" x2="822" y2="160"/>
+    <line x1="1048" y1="160" x2="1078" y2="160"/>
+  </g>
+
+  <!-- start -->
+  <rect x="24" y="134" width="100" height="52" rx="26" fill="#21262d" stroke="#484f58"/>
+  <text x="74" y="165" font-size="14" font-weight="700" fill="#c9d1d9" text-anchor="middle">A finding</text>
+
+  <!-- gate 1 -->
+  <rect x="160" y="88" width="220" height="144" rx="16" fill="#38bdf8" fill-opacity="0.12" stroke="#38bdf8" stroke-width="2"/>
+  <text x="180" y="118" font-size="11" font-weight="700" fill="#7dd3fc" letter-spacing="1">GATE 1 · SUPERVISOR</text>
+  <text x="180" y="152" font-size="24" font-weight="800" fill="#e6edf3">CONFIRMED</text>
+  <text x="180" y="182" font-size="14" fill="#c9d1d9">No fix without proof.</text>
+  <text x="180" y="206" font-size="13" fill="#8b949e">Reproduced, not guessed.</text>
+
+  <!-- fix -->
+  <rect x="416" y="134" width="120" height="52" rx="12" fill="#21262d" stroke="#484f58"/>
+  <text x="476" y="157" font-size="14" font-weight="700" fill="#c9d1d9" text-anchor="middle">Specialist</text>
+  <text x="476" y="175" font-size="14" font-weight="700" fill="#c9d1d9" text-anchor="middle">fixes it</text>
+
+  <!-- gate 2 -->
+  <rect x="572" y="88" width="220" height="144" rx="16" fill="#34d399" fill-opacity="0.12" stroke="#34d399" stroke-width="2"/>
+  <text x="592" y="118" font-size="11" font-weight="700" fill="#6ee7b7" letter-spacing="1">GATE 2 · SUPERVISOR</text>
+  <text x="592" y="152" font-size="24" font-weight="800" fill="#e6edf3">ACCEPTED</text>
+  <text x="592" y="182" font-size="14" fill="#c9d1d9">No commit without review.</text>
+  <text x="592" y="206" font-size="13" fill="#8b949e">Diff read, tests re-run.</text>
+
+  <!-- gate 3 -->
+  <rect x="828" y="88" width="220" height="144" rx="16" fill="#a78bfa" fill-opacity="0.14" stroke="#a78bfa" stroke-width="2"/>
+  <text x="848" y="118" font-size="11" font-weight="700" fill="#c4b5fd" letter-spacing="1">GATE 3 · CEO</text>
+  <text x="848" y="152" font-size="24" font-weight="800" fill="#e6edf3">READY</text>
+  <text x="848" y="182" font-size="14" fill="#c9d1d9">Nothing is "done" until</text>
+  <text x="848" y="206" font-size="13" fill="#8b949e">the CEO re-checks &amp; signs off.</text>
+
+  <!-- end -->
+  <rect x="1084" y="134" width="92" height="52" rx="26" fill="#ffffff"/>
+  <text x="1130" y="165" font-size="14" font-weight="800" fill="#0d1117" text-anchor="middle">To you</text>
+</svg>
