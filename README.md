@@ -55,14 +55,16 @@ And above them all:
 ## 🔄 How a run works
 
 ```mermaid
-flowchart LR
-    A["0 · Setup<br/>safe branch + baseline tests"] --> B["1 · Audit<br/>10 specialists, read-only"]
-    B --> C["2 · Verify<br/>5 supervisors re-check everything"]
-    C --> D["3 · CEO briefing<br/>scorecard + plan"]
-    D --> E{{"✋ You approve"}}
-    E --> F["4 · Fix<br/>in waves, no file conflicts"]
-    F --> G["5 · Review fixes<br/>supervisors accept or reject"]
-    G --> H["6 · CEO final report<br/>READY or BLOCKED"]
+flowchart TB
+    subgraph find ["🔍 Find & verify"]
+        direction LR
+        A["0 · Setup<br/>safe branch + baseline tests"] --> B["1 · Audit<br/>10 specialists, read-only"] --> C["2 · Verify<br/>5 supervisors re-check everything"] --> D["3 · CEO briefing<br/>scorecard + plan"]
+    end
+    subgraph fix ["🛠️ Fix & sign off"]
+        direction LR
+        F["4 · Fix<br/>in waves, no file conflicts"] --> G["5 · Review fixes<br/>supervisors accept or reject"] --> H["6 · CEO final report<br/>READY or BLOCKED"]
+    end
+    D --> E{{"✋ You approve"}} --> F
     H --> I{{"🚀 You ship"}}
 ```
 
